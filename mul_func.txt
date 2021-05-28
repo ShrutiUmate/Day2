@@ -1,0 +1,13 @@
+using System;
+public class Day2 {
+   public static void Main() {
+      int a=2,b=5;
+	   int c=mul(a,b);
+	   Console.WriteLine(c);
+	   Console.ReadLine();
+   }
+	public static int mul(int a,int b)
+	{
+	return(a*b);
+	}
+}

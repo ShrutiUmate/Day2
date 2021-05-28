@@ -1,0 +1,24 @@
+using System;
+public class Program
+{
+  public static void Main(string[]args) 
+  {
+      sum(1,2);
+	  sum(1,2,3);
+	  sum("shruti","umate");
+	  Console.ReadLine();
+  }
+	
+public static void sum (int a , int b)	
+{
+	Console.WriteLine("adding two values:"+(a+b));
+}
+public static void sum (string a , string b)	
+{
+	Console.WriteLine("adding two names:"+a +b);
+}
+public static void sum (int a , int b, int c)	
+{
+	Console.WriteLine("adding three values:"+(a+b+c));
+}
+}
